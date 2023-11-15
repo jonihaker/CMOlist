@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+.all {
+    padding: 0 180px;
+}
+.top1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.btn1 {
+    padding: 6px 28px;
+    background-color: transparent;
+    color: #2A62FF;
+    border: 2px solid #2A62FF;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.top2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini1 {
+    width: 45%;
+}
+.img2 {
+    width: 45%;
+}
+.p1 {
+    margin: 40px 0;
+}
+.btn2 {
+    padding: 14px;
+    border: none;
+    color: #fff;
+    background-color: #2A62FF;
+    border-radius: 25px;
+}
+.middle1 {
+    margin-top: 80px;
+    text-align: center;
+}
+.h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.mini2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle2 {
+    background-color: #fafafa;
+    margin: 60px 0;
+    text-align: center;
+}
+.mini3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.smini {
+    width: 30%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px silver;
+    margin: 10px;
+}
+.h3 {
+    margin: 10px 0;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 0;
+    background-color: #2E3469;
+    color: white;
+}
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+i {
+    margin: 0 10px;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+}
+.p4 {
+    margin: 0 10px;
+}
+@media(max-width:1110px){
+    .all {
+        padding: 0 100px;
+    }
+}
+@media(max-width:950px){
+    .smini {
+        width: 46%;
+    }
+    .mini2 {
+        justify-content: space-evenly;
+    }
+    .img3 {
+        width: 25%;
+        margin: 10px;
+    }
+    .mini1 {
+        width: 100%;
+    }
+    .img2 {
+        width: 100%;
+    }
+    .top2 {
+        justify-content: center;
+    }
+}
+@media(max-width:750px){
+    .p4 {
+        margin: 5px;
+    }
+    .smini {
+        width: 100%;
+    }
+}
+@media(max-width:650px){
+    .img3 {
+        width: 30%;
+    }
+    .left {
+        width: 100%;
+        justify-content: center;
+    }
+    .right {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+}
+@media(max-width:650px){
+    .img3 {
+        width: 50%;
+    }
+}
+@media(max-width:550px){
+    .all {
+        padding: 0 50px;
+    }
+}
